@@ -1,54 +1,125 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Términos y Condiciones - ProNeet VPN</title>
-    <style>
-        body {
-            background-color: #000; /* negro */
-            color: #e0e0e0; /* texto gris claro */
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-        }
-        h1, h2, h3 {
-            color: #00ff00; /* verde */
-        }
-        h1 {
-            text-align: center;
-            font-size: 2.5em;
-            margin-bottom: 20px;
-        }
-        h2 {
-            margin-top: 25px;
-            font-size: 1.8em;
-        }
-        h3 {
-            margin-top: 15px;
-            font-size: 1.4em;
-        }
-        a {
-            color: #00ff00;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        p {
-            margin: 10px 0;
-        }
-        .contact {
-            margin-top: 30px;
-            padding: 15px;
-            border-top: 2px solid #00ff00;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <title>ProNeet VPN</title>
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      overflow-y: auto;
+      background-color: #0f0f0f;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      width: 100%;
+      background-color: #0a0a0a;
+      padding: 15px;
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #00ff99;
+      box-shadow: 0 0 10px rgba(0,255,153,0.2);
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 10;
+    }
+
+    main {
+      padding: 20px;
+      width: 100%;
+      max-width: 1000px;
+      margin-top: 50px;
+      margin-bottom: 40px;
+      text-align: left;
+      color: #fff;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+      color: #00ff99;
+    }
+
+    h2 {
+      color: #00ff99;
+      margin-top: 1.5rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      color: #fff;
+    }
+
+    a.button {
+      background-color: #00ff99;
+      color: #000;
+      padding: 15px 30px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: background-color 0.3s ease;
+      display: inline-block;
+    }
+
+    a.button:hover {
+      background-color: #00cc77;
+    }
+
+    footer {
+      background-color: #0a0a0a;
+      width: 100%;
+      padding: 20px 10px;
+      text-align: center;
+      margin-top: auto;
+      color: #fff;
+    }
+
+    .social-icons a {
+      color: #00ff99;
+      margin: 0 10px;
+      font-size: 22px;
+      text-decoration: none;
+    }
+
+    .footer-text {
+      color: #444;
+      font-size: 0.9rem;
+      margin-top: 10px;
+    }
+  </style>
 </head>
 <body>
-    <h1>Términos y Condiciones</h1>
 
-    <p>Bienvenido a <strong>ProNeet VPN</strong>. Al usar nuestra aplicación, aceptas los siguientes términos y condiciones. Si no estás de acuerdo con alguno de estos términos, te recomendamos no utilizar la aplicación.</p>
+  <header>ProNeet VPN</header>
+
+  <main>
+    <h1>Términos y Condiciones</h1>
+    <p>En <strong>ProNeet VPN</strong> valoramos tu privacidad y nos comprometemos a proteger tus datos personales. Esta política describe cómo recopilamos, usamos y protegemos la información de nuestros usuarios.</p>
+
+    <h2>1. Información Recopilada</h2>
+     <p>Bienvenido a <strong>ProNeet VPN</strong>. Al usar nuestra aplicación, aceptas los siguientes términos y condiciones. Si no estás de acuerdo con alguno de estos términos, te recomendamos no utilizar la aplicación.</p>
 
     <h2>1. Uso de la Aplicación</h2>
     <p>ProNeet VPN proporciona un servicio de red privada virtual (VPN) para mejorar la seguridad y privacidad de tu conexión a Internet. Debes usar la aplicación únicamente con fines legales y de acuerdo con todas las leyes aplicables en tu país.</p>
@@ -73,13 +144,21 @@
 
     <h2>4. Limitación de Responsabilidad</h2>
     <p>ProNeet VPN no garantiza la velocidad de conexión en todas las condiciones de red ni el funcionamiento de métodos bloqueados por operadoras. No nos responsabilizamos por daños directos, indirectos, incidentales o consecuentes que puedan derivarse del uso o imposibilidad de uso de la aplicación.</p>
+  </main>
 
-    <div class="contact">
-        <h2>Contacto</h2>
-        <p>Si tienes preguntas sobre estos términos, puedes contactarnos en:</p>
-        <p>Email: <a href="mailto:proneetvpn@gmail.com">proneetvpn@gmail.com</a></p>
-        <p>País: Ecuador</p>
-        <p>Aplicación: ProNeet VPN</p>
+  <footer>
+    <h3>Contáctanos</h3>
+    <div class="social-icons">
+      <a href="https://wa.me/593992852026?text=Hola%20vengo%20desde%20la%20Página%20de%20ProNeet%20VPN%20y%20quiero%20más%20información%20sobre%20la%20aplicacion." target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://chat.whatsapp.com/GoKO7anWUlO0AcCgWbJXOS" target="_blank"><i class="fas fa-users"></i></a>
+      <a href="https://t.me/netfre_ec" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+      <a href="https://t.me/Netfree_Ec" target="_blank"><i class="fab fa-telegram"></i></a>
+      <a href="http://www.facebook.com/ProNeet27" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="http://www.instagram.com/proneet.27" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://github.com/ProNeet-27" target="_blank"><i class="fab fa-github"></i></a>
     </div>
+    <div class="footer-text">ProNeet &copy; 2025. Todos los derechos reservados.</div>
+  </footer>
+
 </body>
 </html>

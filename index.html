@@ -122,6 +122,36 @@
       font-size: 0.9rem;
       margin-top: 10px;
     }
+
+    /* Scrollbar solo para PC/Tablet grande */
+@media (min-width: 800px) {
+  ::-webkit-scrollbar {
+    width: 10px; /* ancho de la barra */
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent; /* fondo invisible */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #555; /* barra gris oscura */
+    border-radius: 6px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #777; /* más claro al pasar el mouse */
+  }
+
+  ::-webkit-scrollbar-thumb:active {
+    background-color: #aaa; /* más claro al hacer clic */
+  }
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;        /* barra más delgada */
+  scrollbar-color: #555 transparent; /* color de barra y fondo */
+}   
   </style>
 </head>
 <body>

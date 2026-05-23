@@ -94,7 +94,7 @@
       color: #fff;
       text-align: justify;
       margin-top: 0;
-      margin-bottom: 1rem; /* Reducido para que el texto suba */
+      margin-bottom: 1rem;
     }
 
     ul {
@@ -158,7 +158,7 @@
     <p>Bienvenido a ProNeet VPN. Al usar nuestra aplicación, aceptas los siguientes términos y condiciones. Si no estás de acuerdo con alguno de estos términos, te recomendamos no utilizar la aplicación.</p>
 
     <h2>1. Información Recopilada</h2>
-    <p>ProNeet VPN no recopila, almacena ni comparte ningún tipo de información personal ni técnica de los usuarios. La aplicación funciona sin necesidad de registrar datos de conexión ni configuraciones.</p>
+    <p>ProNeet VPN no almacena historial de navegación ni comparte información de los usuarios con terceros. La aplicación funciona sin necesidad de registrar datos de conexión o actividad de navegación. Sin embargo, para funciones internas relacionadas con notificaciones personalizadas y avisos importantes del servicio, la aplicación puede utilizar identificadores del dispositivo y tokens de Firebase Cloud Messaging (FCM).</p>
 
     <h2>2. Uso de la Aplicación</h2>
     <p>ProNeet VPN ofrece un servicio de red privada virtual (VPN) que permite al usuario crear un túnel seguro, proteger sus datos, mejorar la privacidad y, gracias a sus servidores propios, optimizar la velocidad de conexión a Internet. Su finalidad es garantizar una experiencia de conexión confiable, privada y más rápida al momento de usar la red.<br>
@@ -174,15 +174,21 @@
     <p>El usuario es responsable de todas las acciones realizadas utilizando la aplicación. Esto incluye no utilizar la VPN para actividades ilícitas o no autorizadas.</p>
 
     <h3>2.4 Limitaciones por Bloqueo de Operadora</h3>
-    <p>ProNeet VPN no se hace responsable si la operadora bloquea algún método de conexión, lo que impida que la aplicación conecte al servidor seleccionado.<br>
-    En esos casos se recomienda al usuario cambiar de operadora para usar otro método disponible. Esta limitación es externa a la aplicación y no refleja un fallo de los servidores de ProNeet VPN.</p>
+    <p>ProNeet VPN no se responsabiliza por bloqueos, restricciones o incompatibilidades de la operadora o proveedor de internet que impidan la conexión mediante algún método, SNI, host o protocolo utilizado por la aplicación.</p>
+
+    <ul>
+      <li>Los servidores de ProNeet VPN permanecerán funcionando normalmente mientras el servicio esté activo.</li>
+      <li>No se realizarán devoluciones por fallos de conexión, bloqueos de métodos o problemas externos ajenos a ProNeet VPN. En estos casos, se deberá esperar nuevas configuraciones compatibles, usar otra red o cambiar de operadora.</li>
+    </ul>
 
     <h3>2.5 Bloqueo de cambio de ID</h3>
-    <p>Una vez que el servicio de ProNeet VPN haya sido activado en un dispositivo con un TOKEN ID, este no podrá cambiarse ni transferirse a un nuevo ID, incluso si el usuario cambia de teléfono móvil o si el dispositivo se formatea. ProNeet VPN entrega el servicio con el servidor activado correctamente y no realiza cambios de ID bajo estas condiciones.<br>
-    Los usuarios asumen total responsabilidad al formatear o cambiar de equipo; cualquier pérdida de acceso causada por estas acciones será responsabilidad exclusiva del usuario.</p>
+    <p>Una vez activado el servicio de ProNeet VPN en un dispositivo con un TOKEN ID, este no podrá ser cambiado ni transferido a otro equipo, incluso en casos de formateo o cambio de teléfono.<br>
+    ProNeet VPN entrega el servicio correctamente activado y no realiza cambios de ID bajo estas condiciones.<br>
+    Cualquier pérdida de acceso causada por cambio de dispositivo o formateo será responsabilidad exclusiva del usuario.</p>
 
     <h2>3. Privacidad y Datos</h2>
-    <p>ProNeet VPN no recolecta información personal de los usuarios, no almacena historial de navegación ni datos de conexión. La aplicación no contiene anuncios y respeta tu privacidad completamente. Toda la información relacionada con tu uso de la app proviene únicamente de opiniones personales en Play Store o mediante correo electrónico y se utiliza exclusivamente para mejorar el servicio.</p>
+    <p>ProNeet VPN no recolecta información personal de los usuarios, no almacena historial de navegación ni datos de conexión. La aplicación puede utilizar identificadores del dispositivo y tokens de Firebase Cloud Messaging (FCM) únicamente para funciones internas relacionadas con notificaciones personalizadas y avisos importantes del servicio. La aplicación no contiene anuncios y respeta tu privacidad completamente.<br>
+    Toda la información relacionada con tu uso de la app proviene únicamente de opiniones personales en Play Store o mediante correo electrónico y se utiliza exclusivamente para mejorar el servicio. Ninguna información es vendida ni compartida con terceros.</p>
 
     <h2>4. Propiedad Intelectual</h2>
     <p>Todo el contenido de la aplicación, incluyendo logos, el nombre ProNeet VPN, gráficos, diseños y código fuente, es propiedad de ProNeet VPN y está protegido por las leyes de propiedad intelectual vigentes. Ninguna parte de la aplicación puede ser reproducida, distribuida o utilizada sin autorización expresa.</p>
@@ -191,26 +197,33 @@
     <p>ProNeet VPN no garantiza la velocidad de conexión en todas las condiciones de red ni el funcionamiento de métodos bloqueados por operadoras. No nos responsabilizamos por daños directos, indirectos, incidentales o consecuentes que puedan derivarse del uso o imposibilidad de uso de la aplicación.</p>
 
     <h2>6. Requisitos de Conexión y Sistema</h2>
-    <p>Tenga en cuenta que algunos servidores requieren de una conexión a Internet para poder establecer el túnel VPN. Esta conexión puede ser Wi-Fi o proporcionada por su operador de telefonía móvil. ProNeet VPN no se responsabiliza si la aplicación no funciona correctamente debido a la falta de acceso a Internet en el dispositivo.</p>
-    <p>ProNeet VPN se esfuerza por ser la mejor aplicación VPN del Ecuador, ofreciendo a sus usuarios un servicio rápido, seguro y confiable con servidores optimizados. Recomendamos que los usuarios verifiquen en Google Play Store que cuentan con la versión más reciente. ProNeet VPN está diseñada para ofrecer una experiencia de navegación estable y de alta calidad.</p>
-    <p>Actualmente, la aplicación está disponible solo para Android. Los requisitos del sistema pueden cambiar. ProNeet VPN no garantiza el funcionamiento en versiones de Android no compatibles u obsoletas. También podríamos dejar de proporcionar la aplicación y cancelar su uso en cualquier momento sin previo aviso.</p>
+    <p>Algunos servidores de ProNeet VPN requieren conexión a Internet mediante Wi-Fi o un paquete de datos móviles para establecer el túnel VPN. ProNeet VPN no se responsabiliza por fallos causados por la falta de conexión en el dispositivo.</p>
+
+    <p>ProNeet VPN busca ofrecer un servicio rápido, seguro y estable con servidores optimizados. Se recomienda mantener la aplicación actualizada desde Google Play Store para disfrutar de la mejor experiencia.</p>
+
+    <p>Actualmente, la aplicación está disponible solo para Android y los requisitos del sistema pueden cambiar. ProNeet VPN no garantiza funcionamiento en versiones incompatibles u obsoletas de Android y podrá suspender o finalizar el servicio en cualquier momento sin previo aviso.</p>
 
     <p>En caso de cancelación:</p>
+
     <ul>
-      <li>Los derechos y licencias que se le otorgan en estos términos finalizarán.</li>
-      <li>No podrá usar la aplicación aunque intente conectar, por ende, deberá eliminarla de su dispositivo.</li>
+      <li>Finalizarán los derechos y licencias otorgados al usuario.</li>
+      <li>La aplicación dejará de poder utilizarse y deberá ser eliminada del dispositivo.</li>
     </ul>
 
     <h2>7. Cambios en los Términos</h2>
-    <p>ProNeet VPN se reserva el derecho de modificar estos Términos y Condiciones en cualquier momento para reflejar cambios en el servicio o actualizaciones legales. Las modificaciones serán publicadas en esta misma página y entrarán en vigor desde el momento de su publicación.</p>
-    <p><strong>Última actualización: 19 de Abril de 2026</strong></p>
+    <p>ProNeet VPN se reserva el derecho de modificar estos Términos y Condiciones en cualquier momento para reflejar cambios en el servicio, mejoras o actualizaciones legales. Las modificaciones serán publicadas en esta misma página y entrarán en vigor desde el momento de su publicación.</p>
+
+    <p><strong>Última actualización: 27 de Mayo de 2026</strong></p>
 
     <h2>8. Contacto</h2>
-    <p>Si tienes preguntas o inquietudes sobre estos Términos y Condiciones, puedes contactarnos a través de: <strong>proneetvpn@gmail.com</strong>.</p>
+    <p>Si tienes preguntas, sugerencias o inquietudes sobre estos Términos y Condiciones, puedes contactarnos a través de: <strong>proneetvpn@gmail.com</strong>.</p>
+
   </main>
 
   <footer>
+
     <h4>Contáctanos</h4>
+
     <div class="social-icons">
       <a href="https://wa.me/593992852026?text=Hola%20vengo%20desde%20la%20Página%20de%20ProNeet%20VPN%20y%20quiero%20más%20información%20sobre%20la%20aplicacion." target="_blank"><i class="fab fa-whatsapp"></i></a>
       <a href="https://chat.whatsapp.com/GoKO7anWUlO0AcCgWbJXOS" target="_blank"><i class="fas fa-users"></i></a>
@@ -220,7 +233,9 @@
       <a href="http://www.instagram.com/proneet.27" target="_blank"><i class="fab fa-instagram"></i></a>
       <a href="https://github.com/ProNeet-27" target="_blank"><i class="fab fa-github"></i></a>
     </div>
+
     <div class="footer-text">ProNeet VPN &copy; 2026. Todos los derechos reservados.</div>
+
   </footer>
 
 </body>
